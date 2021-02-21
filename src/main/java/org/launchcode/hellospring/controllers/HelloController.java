@@ -91,6 +91,7 @@ public class HelloController {
         return message;
     }
 
+    //method will take name as input and language as language to convert name into another language
     public static String changeToLanguage(String input, String language){
         String output = "";
         char[] brokenDownInput = input.toCharArray();
